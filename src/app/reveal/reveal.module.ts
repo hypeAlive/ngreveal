@@ -4,6 +4,7 @@ import {ContainerComponent} from "./container/container.component";
 import {SlideComponent} from "./slide/slide.component";
 import {RemoveWrapperDirective} from "./remove-wrapper.directive";
 import {CodeComponent} from "./code/code.component";
+import {MarkdownComponent} from "./markdown/markdown.component";
 
 
 
@@ -11,7 +12,8 @@ import {CodeComponent} from "./code/code.component";
   declarations: [
     ContainerComponent,
     SlideComponent,
-    CodeComponent
+    CodeComponent,
+    MarkdownComponent
   ],
   exports: [
     ContainerComponent,

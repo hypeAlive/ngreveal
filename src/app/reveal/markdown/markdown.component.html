@@ -1,0 +1,15 @@
+<ng-container *ngIf="!file">
+  <section [attr.data-markown]="file">
+
+  </section>
+</ng-container>
+
+<ng-container>
+  <section data-markdown>
+    <div data-template>
+      <ng-content/>
+    </div>
+  </section>
+</ng-container>
+
+
