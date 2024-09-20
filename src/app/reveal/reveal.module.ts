@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import {ContainerComponent} from "./container/container.component";
 import {SlideComponent} from "./slide/slide.component";
 import {RemoveWrapperDirective} from "./remove-wrapper.directive";
+import {CodeComponent} from "./code/code.component";
 
 
 
 @NgModule({
   declarations: [
     ContainerComponent,
-    SlideComponent
+    SlideComponent,
+    CodeComponent
   ],
   exports: [
     ContainerComponent,
