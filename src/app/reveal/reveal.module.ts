@@ -15,7 +15,8 @@ import {CodeComponent} from "./code/code.component";
   ],
   exports: [
     ContainerComponent,
-    SlideComponent
+    SlideComponent,
+    CodeComponent
   ],
   imports: [
     CommonModule,
