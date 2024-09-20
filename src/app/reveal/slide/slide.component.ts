@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'r-slide',
@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './slide.component.scss'
 })
 export class SlideComponent {
+
+  @Input('id') id: string | null = null;
+  @Input('animate') animate: boolean = false;
+  @Input('restart') restart: boolean = false;
 
 }

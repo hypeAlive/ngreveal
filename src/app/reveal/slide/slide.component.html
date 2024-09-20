@@ -1,3 +1,7 @@
-<section remove-wrapper data-auto-animate>
+<section
+  remove-wrapper
+  [attr.data-auto-animate-id]="id"
+  [attr.data-auto-animate]="this.animate || null"
+  [attr.data-auto-animate-restart]="restart || null">
   <ng-content/>
 </section>
